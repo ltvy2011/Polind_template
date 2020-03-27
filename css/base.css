@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --text-color:#333;
+    --hover-color:#dbdbdb;
+    --primary-color: #ed6950;
+    --yellow: #ffc74a;
+    --text-color: #606f81;
+}
+html{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    color: black;
+}
+body{
+    overflow-x: hidden;
+}
+span{
+    font-size: 1.4rem;
+}
+h1{
+    font-size: 6rem;
+    color: white;
+}
+.btn{
+    background: url(./img/button.png) no-repeat center top;
+    color: #b98000;
+    padding: 5px 10px;
+    background-size: contain;
+    height: 50px;
+    width: 200px;
+    line-height: 3rem;
+}
